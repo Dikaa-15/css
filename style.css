@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: #fff;
+}
+
+.navbar {
+  padding: 15px;
+  
+}
+.navbar .nav-item a.nav-link{
+  font-size: 18px;
+}
+.component-categories{
+  background-color: aliceblue;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+
+}
+.component-categories .image-categories:hover{
+  transform: scale(1.05);
+}
+.text-categories{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 12px;
+  color: black;
+}
+.price{
+  color: orangered;
+}
+.image{
+  width: 100px;
+  background: white;
+}
